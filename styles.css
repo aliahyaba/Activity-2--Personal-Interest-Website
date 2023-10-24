@@ -5,6 +5,11 @@ html {
   scroll-behavior: smooth;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .Home {
   overflow: hidden;
 }
@@ -13,7 +18,6 @@ html {
   width: 1920px;
   height: 1080px;
   position: absolute;
-  zoom: 70%;
   margin: 0;
   padding: 0;
 }
