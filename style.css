@@ -54,10 +54,10 @@ a {
 }
 
 a:hover {
-  color: #0F2C3E;
+  color: #0f2c3e;
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: #0F2C3E;
+  text-decoration-color: #0f2c3e;
 }
 
 .krac-logo {
@@ -73,7 +73,7 @@ a:hover {
 #slogan-text {
   display: flex;
   justify-content: center;
-  height: 80vh;
+  height: 110vh;
   padding-left: 25%;
 }
 
@@ -85,12 +85,35 @@ a:hover {
 .text_p1 {
   margin-top: 20px;
   font-size: 25px;
-
 }
 
-.text h1{
+.text h1 {
   margin-top: 30%;
   font-size: 100px;
 }
 
+/*----------- ABOUT US ------------*/
 
+#aboutus {
+  padding: 70px;
+  position: relative;
+  align-self: center;
+  height: 130vh;
+  background-color: white;
+}
+
+.details-container {
+  text-align: center;
+  font-size: 3;
+}
+
+.title1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.abt-cont {
+  padding: 60px;
+  text-align: center;
+  font-size: 16px;
+}
