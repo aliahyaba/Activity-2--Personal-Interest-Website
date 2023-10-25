@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KRAC Food Blog</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
     <link rel="shortcut icon" type="image/x-icon" href="./images/logo.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=-1.0" />
-    <title>Personal Interest Website</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
+</head>
 
-  <body>
-    <div class="Home">
-      <div class="e4_21"></div>
-      <div class="bgcolor"></div>
-
-      <span class="e4_23">Our Reviews</span>
-      <div class="e4_24"></div>
-
-      <span class="e4_25">About Us</span>
-
-      <span class="e4_26">Home</span>
-      <span class="e4_27">Review</span>
-      <span class="e4_28">Recommendation</span>
-      <span class="e4_29">About Us</span>
-      <span class="e4_30">Contacts</span>
-      <div class="e4_31"></div>
-      <div class="e4_32"></div>
-      <div class="e4_33"></div>
-      <span class="e4_34">KRAC Food Blog</span
-      ><span class="e4_35"
-        >hello, madlang pipol. mabuhaaaay! mini miss u, mini miss u so much
-        huhu!</span
-      >
+<body>
+  <div id="homepage">
+    <div class="home-container">
+      <nav>
+        <img src="./images/logo.png" class="krac-logo">
+        <div>
+          <ul class="nav-links">
+            <li><a href="#homepage" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#recommendation" onclick="toggleMenu()">Recommendation</a></li>
+            <li><a href="#review" onclick="toggleMenu()">Review</a></li>
+            <li><a href="#aboutus" onclick="toggleMenu()">About Us</a></li>
+            <li><a href="#contacts" onclick="toggleMenu()">Contacts</a></li>
+          </ul>
+        </div>
+      </nav>
     </div>
-  </body>
+  </div>
+  <section id="slogan-text">
+    <div class="text">
+      <h1 class="title">Food Blog</h1>
+      <p class="text_p1">Feeding Your Curiosity, One Bite at a Time!</p>
+    </div>
+  </section>
+
+</body>
 </html>
