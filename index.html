@@ -15,9 +15,44 @@
             <img src="images/food-loader.gif" alt="Loading...">
         </div>
     </div>
-    
-
-  <div id="homepage">
+    <nav id="desktop-nav">
+      <div class="logo"> <!--home-container-->
+        <nav>
+          <img src="./images/logo.png" class="krac-logo"> 
+        </nav>
+      </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#homepage">Home</a></li>
+          <li><a href="#recommendation">Recommendation</a></li>
+          <li><a href="#review">Review</a></li>
+          <li><a href="#aboutus">About Us</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo"> <!--home-container-->
+        <nav>
+          <img src="./images/logo.png" class="krac-logo"> 
+        </nav>
+      </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#homepage" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#recommendation" onclick="toggleMenu()">Recommendation</a></li>
+          <li><a href="#review" onclick="toggleMenu()">Review</a></li>
+          <li><a href="#aboutus" onclick="toggleMenu()">About Us</a></li>
+          <li><a href="#contacts" onclick="toggleMenu()">Contacts</a></li>
+        </div>
+      </div>
+    </nav>
+  <!--<div id="homepage">
     <div class="home-container">
       <nav>
        <a href="#homepage"><img src="./images/logo.png" class="krac-logo"></a>
@@ -32,7 +67,7 @@
         </div>
       </nav>
     </div>
-  </div>
+  </div> -->
   <section id="slogan-text">
     <div class="text">
       <h1 class="title">Food Blog</h1>
