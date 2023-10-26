@@ -278,8 +278,8 @@ a:hover {
 }
 
 .flip-card-back {
-  background-color: #2980b9;
-  color: rgb(243, 242, 242);
+  background-color: #b4c7d4;
+  color: rgb(8, 2, 2);
   transform: rotateY(180deg);
   font-size: 35px;
 }
