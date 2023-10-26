@@ -7,4 +7,22 @@
     margin-right: 2rem;
     display: flex;
   }
+  .krac-logo {
+    align-items: center;
+    position: absolute;
+    left: 70px;
+    top: 50px;
+    width: 200px;
+    height: 75px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .krac-logo {
+    align-items: center;
+    position: absolute;
+    left: 70px;
+    top: 56px;
+    width: 180px;
+    height: 60px;
+  }
 }
