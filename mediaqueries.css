@@ -25,4 +25,10 @@
     width: 180px;
     height: 60px;
   }
+  .recipe-card {
+    width: 175px;
+    height: 150px;
+    margin: 5px;
+  }
+
 }
