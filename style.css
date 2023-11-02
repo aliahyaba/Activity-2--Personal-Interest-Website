@@ -241,7 +241,7 @@ a:hover {
 
 /*----------- RECIPE CHOICES ------------*/
 #recipe-choices {
-  padding: 50px 50px 50px 50px;
+  padding: 20px 20px 20px 20px;
   background: linear-gradient(45deg, #e3ddd1, #e1d4ac);
   background-size: cover;
   background-position: center;
