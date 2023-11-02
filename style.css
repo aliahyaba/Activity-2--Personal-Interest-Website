@@ -277,6 +277,16 @@ a:hover {
   margin-top: 50px;
   transition: transform 0.5s;
 }
+.layer-choices{
+  height: 0%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 1.5rem;
+  transition: height 0.5s;
+}
 
 /*----------- RECIPE ------------*/
 #recipe {
