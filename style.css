@@ -509,7 +509,7 @@ a:hover {
   display: flex;
   justify-content: center;
   border-radius: 2rem;
-  border: rgb(163, 163, 163) 0.1rem solid;
+  border: rgb(163, 163, 163) 0.2rem solid;
   border-color: rgb(163, 163, 163);
   background: #f1d5bd;
   margin: 2rem;
