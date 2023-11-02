@@ -257,6 +257,14 @@ a:hover {
   justify-content: center;
   margin-top: 100px;
 }
+.choices-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10%, 1fr));
+  grid-gap: 15px;
+  margin-top: 10px;
+  color: black;
+  justify-items: center;
+}
 
 /*----------- RECIPE ------------*/
 #recipe {
