@@ -239,6 +239,15 @@ a:hover {
   font-size: 16px;
 }
 
+/*----------- RECIPE CHOICES ------------*/
+#recipe-choices{
+  padding: 50px 50px 50px 50px;
+  background: linear-gradient(45deg, #E3DDD1, #E1D4AC);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
 /*----------- RECIPE ------------*/
 #recipe {
   background-color: white;
