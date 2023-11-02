@@ -502,3 +502,82 @@ a:hover {
   padding: 90px;
   background: linear-gradient(45deg, #43c6ac, #f8ffae);
 }
+
+/*----------- SEND ME A EMAIL ------------*/
+
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(163, 163, 163) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  background: #f1d5bd;
+  margin: 2rem;
+  padding: 0.5rem;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.contact-info-container p {
+  font-size: larger;
+}
+
+.contact-icon {
+  cursor: default;
+}
+
+.email-icon {
+  cursor: default;
+}
+
+.contact__mail {
+  border-radius: 2rem;
+  position: relative;
+  width: 350px;
+  height: 300px;
+  background-color: #e8d5bd;
+  padding: 3rem 1.5rem 2rem;
+  margin-top: 1rem;
+  transition: background-color 0.4s;
+  align-self: center;
+}
+
+.contact__title {
+  color: #524a2a;
+  font-size: larger;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.contact__button {
+  background-color: #b69e82;
+  cursor: pointer;
+}
+
+.contact__form,
+.contact__group {
+  display: grid;
+  row-gap: 1rem;
+  justify-content: center;
+}
+
+.contact__input:focus + .contact__label,
+.contact__input:not(:placeholder-shown).contact__input:not(:focus)
+  + .contact__label {
+  opacity: 1;
+  top: -16px;
+}
+
+.contact__message {
+  color: #000000;
+  font-size: small;
+  position: absolute;
+  bottom: -1.6rem;
+  left: 0;
+}
