@@ -557,6 +557,7 @@ a:hover {
 
 .contact__button {
   background-color: rgb(223, 192, 156);
+  border-radius: 15px;
   padding: 10px;
   cursor: pointer;
 }
