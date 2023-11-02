@@ -265,6 +265,11 @@ a:hover {
   color: black;
   justify-items: center;
 }
+.choices-list div{
+  padding: 35px;
+  font-size: 1.2rem;
+  border-right: 10px;
+}
 
 /*----------- RECIPE ------------*/
 #recipe {
