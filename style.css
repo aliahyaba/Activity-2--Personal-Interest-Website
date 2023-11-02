@@ -240,9 +240,9 @@ a:hover {
 }
 
 /*----------- RECIPE CHOICES ------------*/
-#recipe-choices{
+#recipe-choices {
   padding: 50px 50px 50px 50px;
-  background: linear-gradient(45deg, #E3DDD1, #E1D4AC);
+  background: linear-gradient(45deg, #e3ddd1, #e1d4ac);
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -251,13 +251,13 @@ a:hover {
   font-size: 6rem;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  display: flex; 
+  display: flex;
   align-items: center;
   color: black;
   justify-content: center;
   margin-top: 100px;
 }
-.choices-list{
+.choices-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10%, 1fr));
   grid-gap: 15px;
@@ -265,19 +265,19 @@ a:hover {
   color: black;
   justify-items: center;
 }
-.choices-list div{
+.choices-list div {
   padding: 35px;
   font-size: 1.2rem;
   border-right: 10px;
 }
-.choices-list img{
+.choices-list img {
   width: 300px;
   border-radius: 150px;
   display: block;
   margin-top: 50px;
   transition: transform 0.5s;
 }
-.layer-choices{
+.layer-choices {
   height: 0%;
   align-items: center;
   justify-content: center;
@@ -287,22 +287,22 @@ a:hover {
   font-size: 1.5rem;
   transition: height 0.5s;
 }
-.layer-choices h2{
+.layer-choices h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   margin-bottom: 20px;
 }
-.choices:hover img{
+.choices:hover img {
   transform: scale(1.1);
   border-radius: 150px;
 }
-.choices:hover .layer{
+.choices:hover .layer {
   height: 100%;
 }
 
 /*----------- CHICKEN RECIPE ------------*/
 #chicken-recipe {
-  background: linear-gradient(45deg, #ADA996, #F2F2F2, #DBDBDB, #EAEAEA);
+  background: linear-gradient(45deg, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
   padding: 70px 50px 50px 50px;
 }
 
@@ -375,30 +375,30 @@ a:hover {
 }
 
 .flip-card-back {
-  background: linear-gradient(45deg, #D3CCE3, #E9E4F0);
+  background: linear-gradient(45deg, #d3cce3, #e9e4f0);
   color: rgb(0, 0, 0);
   transform: rotateY(180deg);
   font-size: 35px;
 }
-.chicken-title{
+.chicken-title {
   font-size: 30px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   margin-top: 20px;
 }
-.description{
+.description {
   font-size: 16px;
   margin: 10%;
   margin-top: 20px;
 }
-.chicken-link{
+.chicken-link {
   font-size: 15px;
   margin: 40px;
 }
 
 /*----------- PORK RECIPE ------------*/
 #pork-recipe {
-  background: linear-gradient(135deg,#ADA996, #F2F2F2, #DBDBDB, #EAEAEA);
+  background: linear-gradient(135deg, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
   padding: 70px 50px 50px 50px;
 }
 
@@ -407,7 +407,6 @@ a:hover {
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 50px;
-
 }
 
 .pork-recipe {
@@ -472,23 +471,23 @@ a:hover {
 }
 
 .flip-card-back {
-  background: linear-gradient(45deg, #D3CCE3, #E9E4F0);
+  background: linear-gradient(45deg, #d3cce3, #e9e4f0);
   color: rgb(0, 0, 0);
   transform: rotateY(180deg);
   font-size: 35px;
 }
-.pork-title{
+.pork-title {
   font-size: 30px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   margin-top: 20px;
 }
-.description{
+.description {
   font-size: 16px;
   margin: 10%;
   margin-top: 20px;
 }
-.pork-link{
+.pork-link {
   font-size: 15px;
   margin: 40px;
 }
