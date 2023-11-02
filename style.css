@@ -587,6 +587,10 @@ a:hover {
 }
 
 /*----------- SEND ME A EMAIL ------------*/
+footer {
+  background-color: white;
+}
+
 .copyr {
   text-align: center;
 }
