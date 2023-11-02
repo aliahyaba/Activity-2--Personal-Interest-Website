@@ -491,3 +491,14 @@ a:hover {
   font-size: 15px;
   margin: 40px;
 }
+
+/*----------- CONTACT US ------------*/
+
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 90vh;
+  padding: 90px;
+  background: linear-gradient(45deg, #43c6ac, #f8ffae);
+}
