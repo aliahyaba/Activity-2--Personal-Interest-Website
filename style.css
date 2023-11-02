@@ -547,6 +547,7 @@ a:hover {
   margin-top: 1rem;
   transition: background-color 0.4s;
   align-self: center;
+  border: rgb(163, 163, 163) 0.2rem solid;
 }
 
 .contact__title {
