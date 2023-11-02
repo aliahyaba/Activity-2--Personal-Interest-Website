@@ -529,6 +529,7 @@ a:hover {
 }
 
 .contact-icon {
+  height: 4rem;
   cursor: default;
 }
 
