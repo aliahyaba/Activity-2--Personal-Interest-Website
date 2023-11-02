@@ -287,6 +287,18 @@ a:hover {
   font-size: 1.5rem;
   transition: height 0.5s;
 }
+.layer-choices h2{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.choices:hover img{
+  transform: scale(1.1);
+  border-radius: 150px;
+}
+.choices:hover .layer{
+  height: 100%;
+}
 
 /*----------- RECIPE ------------*/
 #recipe {
