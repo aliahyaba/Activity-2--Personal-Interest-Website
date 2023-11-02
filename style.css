@@ -245,7 +245,7 @@ a:hover {
   background: linear-gradient(45deg, #e3ddd1, #e1d4ac);
   background-size: cover;
   background-position: center;
-  height: 100%;
+  height: 120vh;
 }
 .recipe-title {
   font-size: 6rem;
