@@ -556,7 +556,8 @@ a:hover {
 }
 
 .contact__button {
-  background-color: #b69e82;
+  background-color: rgb(223, 192, 156);
+  padding: 20px;
   cursor: pointer;
 }
 
