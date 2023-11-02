@@ -270,6 +270,13 @@ a:hover {
   font-size: 1.2rem;
   border-right: 10px;
 }
+.choices-list img{
+  width: 300px;
+  border-radius: 150px;
+  display: block;
+  margin-top: 50px;
+  transition: transform 0.5s;
+}
 
 /*----------- RECIPE ------------*/
 #recipe {
