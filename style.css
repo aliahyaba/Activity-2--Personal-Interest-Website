@@ -493,12 +493,9 @@ a:hover {
 }
 /*----------- Our Group ------------*/
 #our-group {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  height: 100vh;
-  padding: 100px;
-  background: linear-gradient(45deg, #a3b6f3, #e2e2e2);
+  padding: 50px;
+  text-align: center;
+  color: white;
 }
 .column {
   float: left;
@@ -508,12 +505,14 @@ a:hover {
 }
 
 .card {
+  background-color: white;
+  border: rgb(163, 163, 163) 0.2rem solid;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 60px;
 }
-our-group {
-  justify-content: center;
-  background: linear-gradient(45deg, #a3b6f3, #e2e2e2);
+.our-group {
+  text-align: center;
+  background-color: #e2d6b5;
 }
 
 .container {
