@@ -525,11 +525,6 @@ a:hover {
   clear: both;
   display: table;
 }
-
-.title {
-  color: grey;
-}
-
 .button {
   border: none;
   outline: 0;
