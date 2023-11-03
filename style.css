@@ -491,6 +491,197 @@ a:hover {
   font-size: 15px;
   margin: 40px;
 }
+/*----------- BEEF RECIPE ------------*/
+#beef-recipe {
+  background: linear-gradient(45deg, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
+  padding: 70px 50px 50px 50px;
+}
+
+.beef-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.beef-recipe {
+  display: block;
+  position: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.beef-logo {
+  text-align: center;
+  font-size: 3;
+}
+
+.text3 {
+  font-size: 6rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.beef-card {
+  width: 350px;
+  height: 300px;
+  margin: 20px;
+  background-color: transparent;
+  perspective: 1000px;
+}
+
+.flip-card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 350px;
+  height: 300px;
+  text-align: center;
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+}
+
+.flip-card-front,
+.flip-card-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #f9f9f9;
+  color: rgb(156, 16, 16);
+}
+
+.flip-card-back {
+  background: linear-gradient(45deg, #d3cce3, #e9e4f0);
+  color: rgb(0, 0, 0);
+  transform: rotateY(180deg);
+  font-size: 35px;
+}
+.beef-title {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.description {
+  font-size: 16px;
+  margin: 10%;
+  margin-top: 20px;
+}
+.beef-link {
+  font-size: 15px;
+  margin: 40px;
+}
+
+/*----------- DESSERT RECIPE ------------*/
+#dessert-recipe {
+  background: linear-gradient(134deg, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
+  padding: 70px 50px 50px 50px;
+}
+
+.dessert-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.dessert-recipe {
+  display: block;
+  position: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.dessert-logo {
+  text-align: center;
+  font-size: 3;
+}
+
+.text4 {
+  font-size: 6rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.dessert-card {
+  width: 350px;
+  height: 300px;
+  margin: 20px;
+  background-color: transparent;
+  perspective: 1000px;
+}
+
+.flip-card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 350px;
+  height: 300px;
+  text-align: center;
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+}
+
+.flip-card-front,
+.flip-card-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #f9f9f9;
+  color: rgb(156, 16, 16);
+}
+
+.flip-card-back {
+  background: linear-gradient(45deg, #d3cce3, #e9e4f0);
+  color: rgb(0, 0, 0);
+  transform: rotateY(180deg);
+  font-size: 35px;
+}
+.dessert-title {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.description {
+  font-size: 16px;
+  margin: 10%;
+  margin-top: 20px;
+}
+.dessert-link {
+  font-size: 15px;
+  margin: 40px;
+}
 /*----------- Our Group ------------*/
 #our-group {
   padding: 50px;
