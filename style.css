@@ -525,7 +525,7 @@ a:hover {
   font-size: larger;
 }
 .container {
-  padding: 0px 16px;
+  padding: 0px 6px;
 }
 
 .container::after,
