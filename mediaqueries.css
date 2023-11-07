@@ -16,6 +16,12 @@
     height: 70px;
   }
 }
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
 @media screen and (max-width: 600px) {
   .krac-logo {
     align-items: center;
@@ -25,10 +31,71 @@
     width: 180px;
     height: 60px;
   }
+  /*TITLE RECIPES*/
+  .text1 {
+    font-size: 3rem;
+  }
+  .text2 {
+    font-size: 3rem;
+  }
+  .text3 {
+    font-size: 3rem;
+  }
+  .text4 {
+    font-size: 3rem;
+  }
+  /*FLIP CARDS*/
+  .chicken-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .chicken-card {
+    width: calc(50% - 80px); /*for stacking in pairs */
+    max-width: none;
+    margin: 20px; /*spacing between cards */
+    align-items: center;
+    left: 10px;
+  }
+  .pork-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .pork-card {
+    width: calc(50% - 80px); /*for stacking in pairs */
+    max-width: none;
+    margin: 20px; /*spacing between cards */
+    align-items: center;
+    left: 10px;
+  }
+  .beef-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .beef-card {
+    width: calc(50% - 80px); /*for stacking in pairs */
+    max-width: none;
+    margin: 20px; /*spacing between cards */
+    align-items: center;
+    left: 10px;
+  }
+  .dessert-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .dessert-card {
+    width: calc(50% - 80px); /*for stacking in pairs */
+    max-width: none;
+    margin: 20px; /*spacing between cards */
+    align-items: center;
+    left: 10px;
+  }
   .recipe-card {
     width: 175px;
     height: 150px;
-    margin: 5px;
   }
   .flip-card {
     width: 100%;
@@ -41,11 +108,51 @@
   .flip-card-inner {
     width: 175px;
     height: 150px;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
   }
   .flip-card-back {
     transform: rotateY(180deg);
-    font-size: 20px;
+  }
+  .chicken-title {
+    font-size: 15px;
+    margin-top: 8px;
+  }
+  .pork-title {
+    font-size: 15px;
+    margin-top: 8px;
+  }
+  .beef-title {
+    font-size: 15px;
+    margin-top: 8px;
+  }
+  .dessert-title {
+    font-size: 15px;
+    margin-top: 8px;
+  }
+  .description {
+    font-size: 10px;
+    margin: 5%;
+    margin-top: 15px;
+  }
+  .chicken-link {
+    font-size: 9px;
+    margin: 8px;
+  }
+  .pork-link {
+    font-size: 9px;
+    margin: 8px;
+  }
+  .beef-link {
+    font-size: 9px;
+    margin: 8px;
+  }
+  .dessert-link {
+    font-size: 9px;
+    margin: 8px;
+  }
+  /*ABOUT US*/
+  .abt-cont {
+    padding: 50px;
+    text-align: center;
+    font-size: 13.5px;
   }
 }
