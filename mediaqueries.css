@@ -31,6 +31,74 @@
     width: 180px;
     height: 60px;
   }
+  /*RECIPE CHOICES*/
+  #recipe-choices {
+    padding: 50px;
+    background: linear-gradient(45deg, #e3ddd1, #e1d4ac);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+
+  .recipe-title {
+    font-size: 4rem; /* Adjust the font size for smaller screens */
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: black;
+    justify-content: center;
+    margin-top: 20px; /* Reduce the margin for smaller screens */
+  }
+
+  .choices-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+    grid-gap: 10px;
+    margin-top: 10px;
+    color: black;
+    justify-items: center;
+  }
+
+  .choices-list div {
+    padding: 15px;
+    font-size: 1rem;
+  }
+
+  .choices-list img {
+    width: 200px;
+    border-radius: 100px;
+    display: block;
+    margin-top: 20px;
+    transition: transform 0.5s;
+  }
+
+  .layer-choices {
+    height: 0%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 1rem;
+    transition: height 0.5s;
+  }
+
+  .layer-choices h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .choices:hover img {
+    transform: scale(1.1);
+    border-radius: 100px;
+  }
+
+  .choices:hover .layer-choices {
+    height: 100%;
+  }
+
   /* RECIPE FLIP CARDS*/
   .pork {
     display: block;
