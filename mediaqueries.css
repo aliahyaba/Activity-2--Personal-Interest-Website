@@ -79,6 +79,19 @@
     transform: rotateY(180deg);
     font-size: 20px;
   }
+  .r-title {
+    font-size: 15px;
+    margin-top: 8px;
+  }
+  .description {
+    font-size: 10px;
+    margin: 5%;
+    margin-top: 15px;
+  }
+  .r-link {
+    font-size: 9px;
+    margin: 8px;
+  }
   /*ABOUT US*/
   .abt-cont {
     padding: 50px;
