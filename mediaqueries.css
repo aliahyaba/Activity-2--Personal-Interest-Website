@@ -32,6 +32,18 @@
     height: 60px;
   }
   /* RECIPE FLIP CARDS*/
+  .pork {
+    display: block;
+    position: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .beef {
+    display: block;
+    position: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
   .recipe-card {
     width: 175px;
     height: 150px;
