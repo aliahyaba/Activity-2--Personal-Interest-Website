@@ -684,10 +684,11 @@ a:hover {
 }
 /*----------- Our Group ------------*/
 #our-group {
-  padding: 50px;
   text-align: center;
   color: white;
+  padding: 50vh;
 }
+
 .column {
   float: left;
   width: 23.5%;
@@ -710,6 +711,7 @@ a:hover {
 .our-group .title {
   text-align: center;
   font-size: 350%;
+  padding-top: 60px;
 }
 
 .title2 {
