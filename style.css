@@ -328,6 +328,18 @@ a:hover {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+.beef {
+  display: block;
+  position: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.dessert {
+  display: block;
+  position: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
 /*----------- Our Group ------------*/
 #our-group {
