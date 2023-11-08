@@ -38,10 +38,10 @@ const sendEmail = (e) => {
 
   emailjs
     .sendForm(
-      "tintin",
-      "template_7949vtk",
+      "foodkrac",
+      "template_u3wqp5c",
       "#contact-form",
-      "jEtsatNQF-FLJBevW"
+      "HlgkGp-thAwJT3rus"
     )
     .then(
       () => {
