@@ -316,6 +316,18 @@ a:hover {
   background: linear-gradient(45deg, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
   padding: 50px 30px 30px 30px;
 }
+.chicken {
+  display: block;
+  position: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.pork {
+  display: block;
+  position: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
 /*----------- Our Group ------------*/
 #our-group {
