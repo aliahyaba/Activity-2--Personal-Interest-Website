@@ -60,14 +60,14 @@
   #hamburger-nav {
     margin-right: 2rem;
     display: flex;
+    top: 50px;
   }
   .krac-logo {
     align-items: center;
     position: absolute;
     left: 70px;
-    top: 50px;
-    width: 200px;
     height: 70px;
+    width: 90px;
   }
 }
 @media screen and (max-width: 650px) {
@@ -81,10 +81,33 @@
     align-items: center;
     position: absolute;
     left: 70px;
-    top: 56px;
-    width: 180px;
     height: 60px;
+    width: 60px;
   }
+  .content {
+    text-align: center;
+  }
+  .content h1 {
+    font-size: 100px;
+    color: white;
+    font-weight: 600;
+    transition: 0.5s;
+  }
+
+  .content h1:hover {
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+  }
+  .content a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    margin-top: 20px;
+  }
+
   /*RECIPE CHOICES*/
   #recipe-choices {
     padding: 50px;
