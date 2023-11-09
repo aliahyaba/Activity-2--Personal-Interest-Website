@@ -241,19 +241,19 @@ nav ul li a {
 
 /*----------- RECIPE FLIP CARDS ------------*/
 #chicken {
-  background: linear-gradient(45deg, #D3CCE3, E9E4F0);
+  background: linear-gradient(45deg, #D3CCE3, #E9E4F0);
   padding: 50px 30px 30px 30px;
 }
 #pork {
-  background: linear-gradient(45deg, #EFEFBB, #DD4D3DD);
+  background: linear-gradient(45deg, #EFEFBB, #D4D3DD);
   padding: 50px 30px 30px 30px;
 }
 #beef {
-  background: linear-gradient(45deg, #D3CCE3, E9E4F0);
+  background: linear-gradient(45deg, #D3CCE3, #E9E4F0);
   padding: 50px 30px 30px 30px;
 }
 #dessert {
-  background:linear-gradient(45deg, #EFEFBB, #DD4D3DD);
+  background:linear-gradient(45deg, #EFEFBB, #D4D3DD);
   padding: 50px 30px 30px 30px;
 }
 .chicken {
@@ -347,7 +347,7 @@ nav ul li a {
   color: rgb(156, 16, 16);
 }
 .flip-card-back {
-  background-color: #777C6A;
+  background-color: #DBDCE1;
   color: rgb(8, 2, 2);
   transform: rotateY(180deg);
   font-size: 35px;
