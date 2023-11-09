@@ -482,13 +482,8 @@ nav ul li a {
   justify-content: center;
   border-radius: 2rem;
   border: rgb(163, 163, 163) 0.2rem solid;
-<<<<<<< Updated upstream
   border-color: rgb(163, 163, 163);
   background: #dbdce1;
-=======
-  border-color: #31302c;
-  background: #DBDCE1;
->>>>>>> Stashed changes
   margin: 2rem;
   padding: 0.5rem;
 }
