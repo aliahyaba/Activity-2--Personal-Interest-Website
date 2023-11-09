@@ -395,7 +395,7 @@ nav ul li a {
 }
 .our-group {
   text-align: center;
-  background-color: #e2d6b5;
+  background-color: #f3f3f1;
 }
 
 .our-group .title {
@@ -477,8 +477,13 @@ nav ul li a {
   justify-content: center;
   border-radius: 2rem;
   border: rgb(163, 163, 163) 0.2rem solid;
+<<<<<<< Updated upstream
   border-color: rgb(163, 163, 163);
   background: #dbdce1;
+=======
+  border-color: #31302c;
+  background: #DBDCE1;
+>>>>>>> Stashed changes
   margin: 2rem;
   padding: 0.5rem;
 }
@@ -514,7 +519,7 @@ nav ul li a {
   margin-top: 1rem;
   transition: background-color 0.4s;
   align-self: center;
-  border: rgb(163, 163, 163) 0.2rem solid;
+  border: #31302c 0.2rem solid;
 }
 
 .contact__title {
@@ -553,8 +558,9 @@ nav ul li a {
   left: 0;
 }
 
-/*----------- FOOTERL ------------*/
+/*----------- FOOTER ------------*/
 footer {
+  margin-top: 10px;
   background-color: white;
   text-align: center;
 }
