@@ -377,18 +377,21 @@ nav ul li a {
   text-align: center;
   color: white;
   padding: 50vh;
+  
 }
 
 .column {
   float: left;
   width: 25%;
-  margin-bottom: 16px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   padding: 0px 11px;
 }
 
 .card {
   background-color: white;
   border: rgb(163, 163, 163) 0.2rem solid;
+  border-radius: 7px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 60px;
   max-width: 300px;
@@ -400,7 +403,8 @@ nav ul li a {
 
 .our-group .title {
   text-align: center;
-  font-size: 350%;
+  font-size: 6rem;
+  font-weight: 600;
   padding-top: 60px;
 }
 
@@ -419,11 +423,12 @@ nav ul li a {
 }
 .button {
   border: none;
+  border-radius: 5px 5px 0 0;
   outline: 0;
   display: inline-block;
   padding: auto;
   color: white;
-  background-color: #000;
+  background-color: #191815;
   text-align: center;
   cursor: pointer;
   width: 100%;
