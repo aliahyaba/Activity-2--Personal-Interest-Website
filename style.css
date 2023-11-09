@@ -450,18 +450,18 @@ nav ul li a {
 
 .details-container {
   text-align: center;
-  font-size: 3;
+  font-size: 5px;
 }
 
 .title1 {
-  font-size: 3rem;
+  font-size: 5rem;
   text-align: center;
 }
 
 .abt-cont {
   padding: 60px;
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 /*----------- CONTACT US ------------*/
@@ -500,6 +500,10 @@ nav ul li a {
   font-size: larger;
 }
 
+.contact.title {
+  font-size: 10px;
+}
+
 .contact-icon {
   height: 4rem;
   cursor: default;
@@ -524,7 +528,7 @@ nav ul li a {
 
 .contact__title {
   color: #191815;
-  font-size: larger;
+  font-size: 1rem;
   margin-bottom: 1rem;
   text-align: center;
 }
