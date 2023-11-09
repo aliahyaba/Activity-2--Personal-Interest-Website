@@ -9,16 +9,22 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
     <link rel="shortcut icon" type="image/x-icon" href="./images/chicken-logo.png" />
+    
 </head>
 
 <body>
   <div class="homepage">
+     <div class="loader-wrapper">
+      <div class="loader">
+          <img src="images/food-loader.gif" alt="Loading...">
+      </div>
+  </div>
 
         <video autoplay loop muted plays-inline class="bg-video">
             <source src="images/food.mp4" type="video/mp4">
         </video>
 
-        <nav>
+        <nav id="desktop-nav">
             <img src="images/logo/logo.png" class="krac-logo">
             <ul>
                 <li><a href="#homepage">HOME</a></li>
@@ -32,16 +38,12 @@
         </nav>
         <div class="content">
             <h1>Food Blog</h1>
-            <a href="#">Explore</a>
+            <a href="#homepage">Explore</a>
         </div>
     </div>
 
 <!------------------------- LOADER WRAPPER ------------------------->
-    <div class="loader-wrapper">
-      <div class="loader">
-          <img src="images/food-loader.gif" alt="Loading...">
-      </div>
-  </div>
+    
 <!------------------------- GO TO TOP BUTTON ------------------------->
   <button class="go-top-btn">
     <img src="./images/icon/arrowup.png" alt="arrow up">
