@@ -47,6 +47,7 @@ html {
 nav,
 .nav-links {
   display: flex;
+
 }
 
 nav {
@@ -65,7 +66,7 @@ nav {
 }
 
 a {
-  color: rgb(0, 0, 0); /* H.R.R.A.C down font color */
+  color: rgb(0, 0, 0);
   text-decoration: none;
   text-decoration-color: white;
   left: 100px;
