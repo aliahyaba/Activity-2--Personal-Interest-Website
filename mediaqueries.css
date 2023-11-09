@@ -1,3 +1,57 @@
+@media screen and (max-width: 1920px) {
+  /*------------PROFILE CHOICES--------*/
+  /*OUR TEAM VER 2*/
+  #profile-choices {
+    padding: 50px;
+    background: linear-gradient(45deg, #e3ddd1, #e1d4ac);
+    background-size: cover;
+    background-position: center;
+    height: 1vh;
+  }
+
+  .profile-title {
+    display: none;
+  }
+
+  .p-list {
+    display: none;
+  }
+
+  .p-list div {
+    padding: 15px;
+    font-size: 1rem;
+  }
+
+  .p-list img {
+    display: none;
+  }
+
+  .p-choices {
+    height: 0%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 1rem;
+    transition: height 0.5s;
+  }
+
+  .p-choices h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .pchoices:hover img {
+    transform: scale(1.1);
+    border-radius: 100px;
+  }
+
+  .pchoices:hover .layer-choices {
+    height: 100%;
+  }
+}
 @media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
@@ -99,6 +153,73 @@
     height: 100%;
   }
 
+  /*OUR TEAM VER 2*/
+  #profile-choices {
+    padding: 50px;
+    background: linear-gradient(45deg, #e3ddd1, #e1d4ac);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+
+  .profile-title {
+    font-size: 4rem; /* Adjust the font size for smaller screens */
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: black;
+    justify-content: center;
+    margin-top: 20px; /* Reduce the margin for smaller screens */
+  }
+
+  .p-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+    grid-gap: 10px;
+    margin-top: 10px;
+    color: black;
+    justify-items: center;
+  }
+
+  .p-list div {
+    padding: 15px;
+    font-size: 1rem;
+  }
+
+  .p-list img {
+    width: 200px;
+    border-radius: 100px;
+    display: block;
+    margin-top: 20px;
+    transition: transform 0.5s;
+  }
+
+  .p-choices {
+    height: 0%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 1rem;
+    transition: height 0.5s;
+  }
+
+  .p-choices h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .pchoices:hover img {
+    transform: scale(1.1);
+    border-radius: 100px;
+  }
+
+  .pchoices:hover .layer-choices {
+    height: 100%;
+  }
   /* RECIPE FLIP CARDS*/
   .pork {
     display: block;
@@ -176,6 +297,42 @@
     font-size: 3rem;
     text-align: center;
   }
+  /*OUR TEAM*/
+  #our-group {
+    display: none;
+  }
+  .column {
+    display: none;
+  }
+
+  .card {
+    display: none;
+  }
+  .our-group {
+    display: none;
+  }
+
+  .our-group .title {
+    display: none;
+  }
+
+  .title2 {
+    display: none;
+  }
+  .container {
+    padding: 0px 6px;
+  }
+  .container::after,
+  .row::after {
+    display: none;
+  }
+  .button {
+    display: none;
+  }
+
+  .button:hover {
+    display: none;
+  }
 
   /*CONTACT US*/
   .contact-info-upper-container {
@@ -197,18 +354,4 @@
     text-align: center;
     font-size: 13.5px;
   }
-
 }
-@media (min-aspect-ration:16/9){
-  .bg-video {
-      width:100%;
-      height: auto;
-  }
-}
-@media (max-aspect-ration:16/9){
-  .bg-video {
-      width:auto;
-      height: 100%;
-  }
-}
-
