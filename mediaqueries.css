@@ -197,4 +197,18 @@
     text-align: center;
     font-size: 13.5px;
   }
+
 }
+@media (min-aspect-ration:16/9){
+  .bg-video {
+      width:100%;
+      height: auto;
+  }
+}
+@media (max-aspect-ration:16/9){
+  .bg-video {
+      width:auto;
+      height: 100%;
+  }
+}
+
