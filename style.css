@@ -22,6 +22,7 @@
 * {
   margin: 0;
   padding: 0;
+  
 }
 
 body {
@@ -214,39 +215,13 @@ a:hover {
   font-size: 100px;
 }
 
-/*----------- ABOUT US ------------*/
-
-#aboutus {
-  padding: 70px;
-  position: relative;
-  align-self: center;
-  height: 130vh;
-  background-color: white;
-}
-
-.details-container {
-  text-align: center;
-  font-size: 3;
-}
-
-.title1 {
-  font-size: 3rem;
-  text-align: center;
-}
-
-.abt-cont {
-  padding: 60px;
-  text-align: center;
-  font-size: 16px;
-}
-
-/*----------- RECIPE CHOICES ------------*/
+/*----------- RECIPE CHOICES ------------
 #recipe-choices {
-  padding: 20px 20px 20px 20px;
-  background: linear-gradient(45deg, #e3ddd1, #e1d4ac);
+  padding: 10px 20px 20px 20px;
+  background: linear-gradient(45deg, #ffffff, #ffffff);
   background-size: cover;
   background-position: center;
-  height: 120vh;
+  height: 75vh;
 }
 .recipe-title {
   font-size: 6rem;
@@ -261,7 +236,6 @@ a:hover {
 .choices-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10%, 1fr));
-  grid-gap: 15px;
   margin-top: 10px;
   color: black;
   justify-items: center;
@@ -300,21 +274,22 @@ a:hover {
 .choices:hover .layer {
   height: 100%;
 }
+*/
 /*----------- RECIPE FLIP CARDS ------------*/
 #chicken {
-  background: linear-gradient(45deg, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
+  background: linear-gradient(45deg, #ffffff, #ffffff, #ffffff, #ffffff);
   padding: 50px 30px 30px 30px;
 }
 #pork {
-  background: linear-gradient(45deg, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
+  background: linear-gradient(45deg, #ffffff, #ffffff, #ffffff, #ffffff);
   padding: 50px 30px 30px 30px;
 }
 #beef {
-  background: linear-gradient(45deg, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
+  background: linear-gradient(45deg, #ffffff, #ffffff, #ffffff, #ffffff);
   padding: 50px 30px 30px 30px;
 }
 #dessert {
-  background: linear-gradient(45deg, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
+  background: linear-gradient(45deg, #ffffff, #ffffff, #ffffff, #ffffff);
   padding: 50px 30px 30px 30px;
 }
 .chicken {
@@ -490,6 +465,32 @@ a:hover {
   background-color: #555;
 }
 
+/*----------- ABOUT US ------------*/
+
+#aboutus {
+  padding: 70px;
+  position: relative;
+  align-self: center;
+  height: 130vh;
+  background-color: white;
+}
+
+.details-container {
+  text-align: center;
+  font-size: 3;
+}
+
+.title1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.abt-cont {
+  padding: 60px;
+  text-align: center;
+  font-size: 16px;
+}
+
 /*----------- CONTACT US ------------*/
 
 #contact {
@@ -583,6 +584,7 @@ a:hover {
   bottom: -1.6rem;
   left: 0;
 }
+
 
 /*----------- FOOTERL ------------*/
 footer {
