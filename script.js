@@ -41,7 +41,7 @@ const sendEmail = (e) => {
       "foodkrac",
       "template_u3wqp5c",
       "#contact-form",
-      "HlgkGp-thAwJT3rus"
+      "1pwDtY-8Ihq40ll6R"
     )
     .then(
       () => {
@@ -58,5 +58,4 @@ const sendEmail = (e) => {
       }
     );
 };
-
 contactForm.addEventListener("submit", sendEmail);
