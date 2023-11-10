@@ -373,12 +373,53 @@ nav ul li a {
   color: #333;
 }
 
+nav li a {
+  position: relative;
+}
+
+li a::before {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  transition: 0.3s;
+  border-radius: 25px;
+  transform: scaleX(0);
+  background: red;
+}
+
+li a:hover::before {
+  transform: scaleX(1);
+}
+
+.r-link a {
+  position: relative;
+}
+
+.r-link a::before {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  transition: 0.3s;
+  border-radius: 25px;
+  transform: scaleX(0);
+  background: red;
+}
+
+.r-link a:hover::before {
+  transform: scaleX(1);
+}
+
 /*----------- Our Group ------------*/
 #our-group {
   text-align: center;
   color: white;
   padding: 50vh;
-  
 }
 
 .column {
@@ -442,7 +483,7 @@ nav ul li a {
 /*----------- ABOUT US ------------*/
 
 #aboutus {
-  padding: 50x;
+  padding: 50px;
   position: relative;
   align-self: center;
   height: 130vh;

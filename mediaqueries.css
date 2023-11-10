@@ -3,7 +3,7 @@
   /*OUR TEAM VER 2*/
   #profile-choices {
     padding: 50px;
-    background: linear-gradient(45deg, #e3ddd1, #e1d4ac);
+    background: white;
     background-size: cover;
     background-position: center;
     height: 1vh;
@@ -179,7 +179,7 @@
   /*OUR TEAM VER 2*/
   #profile-choices {
     padding: 50px;
-    background: linear-gradient(45deg, #e3ddd1, #e1d4ac);
+    background: linear-gradient(45deg, #ece9e6, #ffffff);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -296,12 +296,12 @@
     margin-top: 8px;
   }
   .description {
-    font-size: 10px;
+    font-size: 8px;
     margin: 5%;
-    margin-top: 15px;
+    margin-top: 10px;
   }
   .r-link {
-    font-size: 9px;
+    font-size: 8px;
     margin: 8px;
   }
   .text1 {
@@ -320,6 +320,19 @@
     font-size: 3rem;
     text-align: center;
   }
+  .chicken-logo p {
+    font-size: 10px;
+  }
+  .pork-logo p {
+    font-size: 10px;
+  }
+  .beef-logo p {
+    font-size: 10px;
+  }
+  .dessert-logo p {
+    font-size: 10px;
+  }
+
   /*OUR TEAM*/
   #our-group {
     display: none;
@@ -372,6 +385,9 @@
     font-size: 1rem;
   }
   /*ABOUT US*/
+  #aboutus {
+    margin-bottom: 380px;
+  }
   .abt-cont {
     padding: 50px;
     text-align: center;
